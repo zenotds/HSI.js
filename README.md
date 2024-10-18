@@ -8,7 +8,7 @@ HSI.js is a simple client-side solution for including external HTML snippets int
 
 ## Usage
 
-To use HSI.js, just include `hsi.min.js` in the `<head>` of your HTML document. Then, add a `data-include` attribute to any valid HTML element, specifying the URL of the HTML file to include. HSI.js will fetch the external file and **replace** the element with the fetched content.
+To use HSI.js, just include `hsi.min.js` in your project. Then, add a `data-include` attribute to any valid HTML element, specifying the URL of the HTML file to include. HSI.js will fetch the external file and **replace** the element with the fetched content.
 
 For example, if the `snippet.html` file contains:
 
