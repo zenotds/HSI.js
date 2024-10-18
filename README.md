@@ -12,19 +12,25 @@ To use HSI.js, just include `hsi.min.js` in your project. Then, add a `data-incl
 
 For example, if the `snippet.html` file contains:
 
-`<h1>Great Scott!</h1>`
+```html
+<h1>Great Scott!</h1>
+```
 
 And your main HTML document has this structure:
 
-`<body>` 
-    `<div data-include="snippet.html"></div>` 
-`</body>`
+```html
+<body>
+    <div data-include="snippet.html"></div>
+</body>
+```
 
 After HSI.js runs, the result will be:
 
-`<body>`
-    `<h1>Great Scott!</h1>`
-`</body>`
+```html
+<body>
+    <h1>Great Scott!</h1>
+</body>
+```
 
 # File System Support
 
