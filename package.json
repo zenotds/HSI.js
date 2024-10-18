@@ -1,0 +1,17 @@
+{
+  "name": "hsi.js",
+  "version": "1.0",
+  "description": "HTML Snippet Includes via JavaScript",
+  "author": "Francesco Selva",
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://paypal.me/zenotds"
+  },
+  "scripts": {
+    "build": "esbuild src/hsi.js --outfile=hsi.min.js --minify"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.7"
+  }
+}
